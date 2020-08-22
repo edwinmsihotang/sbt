@@ -1,5 +1,6 @@
 //<![CDATA[
 var _
+var _
 ! function (_0xaf1cx3) {
     _0xaf1cx3[_"_"][_"["] = function () {
         return this[_"_"](function () {
