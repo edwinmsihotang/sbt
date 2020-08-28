@@ -3751,9 +3751,8 @@ $('.about-author .author-description span a').each(function() {
     var $this = $(this),
         cls = $this.text().trim(),
         url = $this.attr('href');
-    $this.replaceWith('<li class="' + cls + '"><a href="' + url + '" title="' + cls + '" rel="noopener" target="_blank"/></li>');
+    $this.replaceWith('<li class="' + cls + '"><a href="' + url + '" title="' + cls + '" rel="noopener" target="_blank"/></li>').wrap('<ul></ul>');
     $('.author-description').append($('.author-description span li'));
-    $('li').wrap('<ul></ul>');
     $('.author-description').addClass('show-icons')
 });
 
