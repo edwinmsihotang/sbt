@@ -3753,7 +3753,7 @@ $('.about-author .author-description span a').each(function() {
         url = $this.attr('href');
     $this.replaceWith('<li class="' + cls + '"><a href="' + url + '" title="' + cls + '" rel="noopener" target="_blank"/></li>');
     $('.author-description').append($('.author-description span li'));
-    $('li').wrap('<ul></ul>')
+    $('li').wrap('<ul></ul>');
     $('.author-description').addClass('show-icons')
 });
 
