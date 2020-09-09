@@ -2,7 +2,7 @@
 
 
 
-    $('.about-author .author-description span a').each(function(){
+    $('.about-author .author-description span ul a').each(function(){
 
         var $this=$(this),cls=$this.text().trim(),url=$this.attr('href');
         $this.replaceWith('<ul><li class="'+cls+'"><a href="'+url+'" title="'+cls+'" rel="noopener" target="_blank"/></li></ul>');
